@@ -1,0 +1,29 @@
+{
+    "name": "cyrex/relationship-manager",
+    "description": "Laravel Relationship Manager.",
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Gosselin",
+            "email": "maninasuitofficial@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cyrex\\RelationManager\\": "src/"
+        },
+        "files": [
+            "src/app/Http/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cyrex\\RelationManager\\RelationManagerProvider"
+            ]
+        }
+    }
+}
